@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+    <test name="MyTest">
+        <classes>
+            <class name="DataObject.LogInData"/>
+            <class name="PageObject.LoginObject"/>
+            <class name="PageObject.LogoutObject"/>
+            <class name="StepObject.LoginSteps"/>
+            <class name="StepObject.LogoutSteps"/>
+            <class name="LogIn"/>
+            <class name="TestCases.LoginLogoutTest"/>
+            <class name="utils.BrowserActions"/>
+
+
+            </classes>
+
+    </test>
+</suite>
