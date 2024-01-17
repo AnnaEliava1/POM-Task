@@ -8,7 +8,7 @@
             <class name="cart"/>
             <class name="DropDownMenu"/>
             <class name="ShoppingCartJava"/>
-            <class name="CheckOut"/>
+            <class name="UserIsRequired"/>
             <class name="RemoveItem"/>
             <class name="BurgerButton"/>
             <class name="FacebookIcon"/>
