@@ -2,8 +2,6 @@ package StepObject;
 import PageObject.LoginObject;
 import org.openqa.selenium.WebDriver;
 
-
-
 public class LoginSteps extends LoginObject {
 
     WebDriver driver;
@@ -22,8 +20,6 @@ public  void passwordFieldAction(String password){
 }
 public void logInButtonAction(){
         driver.findElement(logInButton).click();
-
-
 
 }
 

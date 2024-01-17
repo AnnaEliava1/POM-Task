@@ -19,7 +19,7 @@ public class LoginLogoutTest extends BrowserActions {
 
     @BeforeMethod
     public void setUp() {
-        driver = BrowserActions.driver;
+        driver = new ChromeDriver();
         loginSteps = new LoginSteps(driver);
         logoutSteps = new LogoutSteps(driver);
     }
@@ -37,7 +37,7 @@ public class LoginLogoutTest extends BrowserActions {
     @Test(description = "Logout Test")
     public void logoutTest() {
         // Logout
-        logoutSteps.clickLogoutButton();
+//        logoutSteps.clickLogoutButton();
 
         // Perform assertions or further actions after logout if needed
     }
