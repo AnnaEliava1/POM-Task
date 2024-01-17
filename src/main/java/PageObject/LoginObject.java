@@ -4,14 +4,14 @@ import org.openqa.selenium.By;
 
 public class LoginObject {
 
-    protected By
+    public By
 
 
-    emailField = By.name("user-name"),
-    passwordField = By.name("password"),
+    emailField = By.name("user-name");
+    public By passwordField = By.name("password");
 
 
-    logInButton = By.xpath("//*[@id=\"login-button\"]");
+    protected By logInButton = By.xpath("//*[@id=\"login-button\"]");
 
 
 }
